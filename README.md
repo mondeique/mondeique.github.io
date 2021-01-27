@@ -1,10 +1,8 @@
-# Mondeique 기술 블로그 by using Tale 
+# Mondeique 기술 블로그 by using Tale Theme
 
-[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
+> mondeique 개발자들의 생생한 개발 일지를 담은 블로그입니다.(https://mondeique.github.io)
 
-mondeique 개발자들의 생생한 개발 일지를 담은 블로그입니다.(https://mondeique.github.io)
-
-### 설치
+## Installation
 
 <https://github.com/mondeique/mondeique.github.io> 에 push 권한이 있다면:
 
@@ -36,14 +34,7 @@ $ git merge upstream/main
 $ bundle install
 ```
 
-### 실행(로컬)
-
-```
-$ bundle exec jekyll serve
-$ open http://localhost:4000
-```
-
-### 글 쓰기 
+### 새로운 글 쓰기  
 
 1. `_posts` 디렉토리에 `yyyy-mm-dd-title.md` 파일에 작성
  - title : 작성 글 title 
@@ -58,6 +49,7 @@ $ open http://localhost:4000
 4. 확인 
 ```
 $ bundle exec jekyll serve
+$ open https://localhost:4000
 ```
 
 ### 배포(발행)
@@ -82,8 +74,6 @@ disqus: jekyll-tale
 ```
 
 Next, add `comments: true` to the YAML front matter of the posts which you would like to enable comments for.
-
-## 참고문헌
 
 [Jekyll]: https://jekyllrb.com
 [front matter]: https://jekyllrb.com/docs/frontmatter/
