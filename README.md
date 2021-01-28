@@ -1,5 +1,7 @@
 # Mondeique 기술 블로그 by using Tale Theme
 
+본 repo는 kakao.github.io 를 참고하여 생성하였습니다.
+
 > mondeique 개발자들의 생생한 개발 일지를 담은 블로그입니다.(https://mondeique.github.io)
 
 ## Installation
@@ -10,8 +12,8 @@
 2. [Jekyll] 설치
 
 ```console
-$ git clone git@github.com:kakao/kakao.github.io.git
-$ cd kakao.github.io
+$ git clone git@github.com:mondeique/mondeique.github.io.git
+$ cd mondeique.github.io
 $ bundle install
 ```
 
